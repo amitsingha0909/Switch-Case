@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Switchcase{
+	public static void main(String[]args){
+		int choice;
+		System.out.println("pick one:1.hey\t2.hello\t3.hi\t");
+		Scanner s=new Scanner(System.in);
+		choice=s.nextInt();
+		switch(choice){
+			case 1:System.out.println("you picked hey");
+					break;
+			case 2:System.out.println("you picked hello");
+					break;
+			case 3:System.out.println("you picked hi");
+					break;
+			default:System.out.println("invalid choice");
+		}
+	}
+}
